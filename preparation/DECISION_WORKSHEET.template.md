@@ -62,9 +62,9 @@ An editor or reference manager does not identify the AI features actually in use
 
 ## 3. Activity catalogue
 
-**P:** permitted with ordinary review. **C:** permitted only under explicit conditions. **V:** excluded from the project. **?:** undecided; the scientific agent must not perform it and must ask when relevant. **NA:** not applicable, not a permission.
+**P:** permitted within its recorded scope with ordinary human review as specified in the decision register. **C:** permitted only under explicit conditions. **V:** excluded from the project. **?:** undecided; the scientific agent must not perform it and must ask when relevant. **NA:** not applicable, not a permission.
 
-For C, specify at least the intervention boundary, materials, human checks, responsible person and output limits. Until those conditions are defined, the scientific activity cannot be enabled. For group decisions, list the IDs and exceptions. These statuses govern the future scientific workflow, not the builder's preparation of policy options.
+For P, record the responsible human and applicable ordinary review procedure in the conditions/checks column; preserve them in the generated decision register. For C, specify at least the intervention boundary, materials, human checks, responsible person and output limits. Until those conditions are defined, the scientific activity cannot be enabled. For group decisions, list the IDs and exceptions. These statuses govern the future scientific workflow, not the builder's preparation of policy options.
 
 L0 = mechanical intervention; L1 = writing; L2 = scientific checking; L3 = research contribution. These are descriptions, not permission levels. Distinguish faithful transcription, correction, interpretation and generation; even a proposal in a note can exceed a scientific boundary.
 
@@ -308,7 +308,7 @@ Referee/editor roles are distinct from work on one's own paper; check relevance 
 
 ### I — Repository, network and Git operations
 
-Complete for mode B; choosing that mode does not automatically authorise these operations in the scientific project.
+Complete the applicable rows in every working mode: network access, messages, skills and other non-repository operations can also arise in mode A. Repository-specific operations require mode B and explicit access. A mode choice does not authorise an operation or automatically assign NA to any row; record applicability, permissions and conditions separately.
 
 | ID | Activity | Thematic origin to verify | Shared decision | Conditions / checks / responsible person |
 | --- | --- | --- | --- | --- |

@@ -4,7 +4,7 @@ This directory separates **two instruction roles**, with a compatibility entry p
 
 - [AGENTS.md](AGENTS.md) guides the policy **builder**. It encourages initiative and use of the tools, automation and other capabilities permitted by the user's environment and task.
 - [AGENTS.template.md](AGENTS.template.md) is inert source material for the **scientific project's agent**. Its output is deliberately detailed and controlled by the collaborators' adopted policy.
-- [CLAUDE.template.md](CLAUDE.template.md) becomes the project's `CLAUDE.md` and imports its canonical `AGENTS.md` without duplicating policy.
+- [CLAUDE.template.md](CLAUDE.template.md), if adopted for Claude, becomes the project's `CLAUDE.md` and imports its canonical `AGENTS.md` without duplicating policy.
 
 The [root entry point](../AGENTS.md) connects the builder to the whole toolkit. The future project's unresolved decisions do not limit ordinary builder research or drafting. They remain unresolved in its output until the humans decide.
 
@@ -19,17 +19,19 @@ Invoke `$build-scientific-agent` or `$integrate-scientific-policy` in Codex; use
 
 ## Project packet
 
-| Template in the toolkit | Instantiated file in the scientific project |
+| Template in the toolkit | Proposed output in the scientific project |
 | --- | --- |
 | [AGENTS.template.md](AGENTS.template.md) | Root `AGENTS.md` |
-| [CLAUDE.template.md](CLAUDE.template.md) | Root `CLAUDE.md`, importing the same policy |
+| [CLAUDE.template.md](CLAUDE.template.md) | Optional root `CLAUDE.md`, importing the same policy |
 | [Docs/AI/README.template.md](Docs/AI/README.template.md) | `Docs/AI/README.md` |
 | [Docs/AI/ACTIVITY_LOG.template.md](Docs/AI/ACTIVITY_LOG.template.md) | `Docs/AI/ACTIVITY_LOG.md` |
 | [Docs/AI/FULL_AI_DISCLOSURE.template.md](Docs/AI/FULL_AI_DISCLOSURE.template.md) | `Docs/AI/FULL_AI_DISCLOSURE.md` |
 | [Docs/AI/TENTATIVE_AI_DISCLOSURE.template.tex](Docs/AI/TENTATIVE_AI_DISCLOSURE.template.tex) | `Docs/AI/TENTATIVE_AI_DISCLOSURE.tex` |
 | [Docs/AI/WORKFLOW.template.md](Docs/AI/WORKFLOW.template.md) | `Docs/AI/WORKFLOW.md` |
 
-The seven-file layout is a reusable proposal to confirm or adapt through W22. **Do not copy this directory's builder AGENTS.md into the manuscript repository.** The project's instructions come from the completed scientific-agent template. Keep preparation material separate; private output copies may live in `AI/generated/<project>/`, ignored by Git in this toolkit.
+This layout is a reusable proposal to confirm or adapt through W22. Documents may be combined, relocated or omitted from the packet while retaining the required decision and evidence information in the designated records. In an adopted packet, include the Claude bridge only if adopted and remove output links and references to documents not selected. Drafts may contain clearly labelled proposed files, layouts and alternatives. **Do not copy this directory's builder AGENTS.md into the manuscript repository.** The project's instructions come from the completed scientific-agent template. Keep preparation material separate; private output copies may live in `AI/generated/<project>/`, ignored by Git in this toolkit.
+
+The generated `AGENTS.md` is the canonical policy and incorporates the designated decision register by reference, with its location, version and adoption status. The register preserves exact IDs, statuses, conditions, human responsibilities and authority. Any `WORKFLOW` is a derived human-readable summary, not an independent source of permissions. For scientific-agent execution or installation of an adopted packet, these records must align with the adopted version: a divergence stops the affected action until reconciliation under the adopted human authority and amendment procedure, without silently selecting the broader rule or changing permissions. Separately authorised independent work may continue. The builder remains free to correct draft inconsistencies and propose amendments without claiming adoption.
 
 ## Draft freely; adopt accurately
 
@@ -37,21 +39,21 @@ The builder may research alternatives, restructure a draft or create a complete 
 
 1. Read the working worksheet and later clarifications. Distinguish individual preferences, options, reported agreements and open decisions.
 2. Replace `{{FIELD}}` with supported facts or attributed reports. In a provisional draft, leave a precise unresolved field or labelled proposal rather than inventing a value. Resolve adoption-critical fields before deployment.
-3. Populate the output README with all 193 activity decisions, W01–W23 and AG1–AG6, preserving conditions and exceptions. X1–X8 are integrity safeguards, not discretionary permissions. An undecided activity does not become NA automatically.
+3. Populate the designated decision register, located in the output README by default, with all 193 activity decisions, W01–W23 and AG1–AG6, preserving exact statuses, conditions, exceptions, responsible humans and authority. X1–X8 are integrity safeguards, not discretionary permissions. An undecided activity does not become NA automatically.
 4. Translate the adopted decisions into operational rules. LOW/HIGH intervention levels, colours, bibliography-audit scope and Git conventions become operative only within their agreed scope.
 5. Keep template and project metadata separate. A toolkit creation date, template compilation result or builder activity is not automatically an event observed in the manuscript project.
-6. Remove `.template` from output filenames and update every local link and the `CLAUDE.md` import accordingly. Keep the agreed directory casing. Remove drafting instructions only after resolving them; leave genuine uncertainties explicit.
+6. Remove `.template` from selected output filenames and update every local link and any `CLAUDE.md` import for the selected layout. Keep the agreed directory casing. In an adopted packet, omit references to outputs not adopted; in drafts, label proposed outputs and alternatives. Remove drafting instructions only after resolving them; leave genuine uncertainties explicit.
 7. Instantiate the initial activity row only after real packet creation. Prior uses need actual reports or observations; they do not inherit the documentation-import hash.
 8. Derive the short disclosure from reconciled evidence. Without evidence, retain a draft to complete; do not produce a statement of non-use or reuse another project's historical claims.
 
-Skills for the scientific project are optional additions governed by I23/I24/W23 and the underlying activity permissions. Use the existing documentation README for their compact inventory. Do not copy the toolkit's broadly autonomous builder skills into the manuscript project; tailor any adopted project skill to its exact scope and record material use alongside the actual activity.
+Skills for the scientific project are optional additions governed by I23/I24/W23 and the underlying activity permissions. Use the designated project documentation, the README by default, for their compact inventory. Do not copy the toolkit's broadly autonomous builder skills into the manuscript project; tailor any adopted project skill to its exact scope and record material use alongside the actual activity.
 
 ## Before adopting the output
 
 - Are the mode, material access, responsible humans and authority for adoption established?
 - Does every operative permission have an actual decision, scope and conditions? Do `?` cases trigger focused questions in the research agent?
 - Are essential placeholders resolved without invented checks or settings?
-- Do scientific-project skills have an agreed scope and dependencies, and do Claude and other assistants receive the same canonical policy?
+- Do scientific-project skills have an agreed scope and dependencies, and do the adopted assistants receive the canonical policy and its designated decision register?
 - Are permissions separate from actual uses and verification? Are dates factual or explicitly unknown?
 - Is the output concise enough to review, internally consistent and tailored to this collaboration?
 - Is disclosure approval still distinguished from policy adoption and submission authority?

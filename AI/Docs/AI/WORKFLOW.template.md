@@ -2,6 +2,10 @@
 
 **TEMPLATE TO COMPLETE.** Human1 and Human2 are placeholders. Agreement status/date/version: {{POLICY_STATUS_DATE_VERSION}}. Project operating instructions will be in [AGENTS.md](../../AGENTS.template.md).
 
+**Generation instruction (W22):** a provisional summary may be drafted; include it in the adopted packet only if agreed. Update links for the agreed output layout and omit references to documents or entry points not adopted.
+
+This is a derived, non-normative summary; it grants no independent permissions. `AGENTS.md` is the canonical policy and incorporates the designated decision register by reference for exact IDs, statuses, conditions, human responsibilities and authority. Keep this summary aligned with the same adopted version. A divergence stops the affected action pending reconciliation under the adopted authority and amendment procedure, without automatically choosing the broader rule or rewriting permissions; independent authorised work may continue.
+
 This document describes the generated scientific agent's controlled workflow. The toolkit's construction agent works with the broader autonomy provided by its user's environment; it may prepare provisional documents before these project decisions are adopted. Accept human prompts in any language and interact in the human's preferred language. Write files in English by default unless another language is explicitly requested for specified files or passages; a prompt's language alone does not change file language. README files stay English unless specifically included in that request.
 
 ## How the agreement was developed
@@ -16,7 +20,7 @@ Enter actual facts. Do not turn this proposed sequence into a history of events 
 
 ## How we work
 
-| Aspect | Adopted rule |
+| Aspect | Summary of adopted rule |
 | --- | --- |
 | Permitted materials and tools | {{MATERIALS_AND_TOOLS}} |
 | Skills, invocation, dependencies and update authority | {{SKILLS_POLICY_I23_I24_W23}} |
@@ -28,7 +32,7 @@ Enter actual facts. Do not turn this proposed sequence into a history of events 
 | LaTeX headers, dates, PDFs and Git | {{SOURCE_AND_GIT_RULES}} |
 | Policy amendments and authority | {{AMENDMENT_AND_AUTHORITY_RULES}} |
 
-The project's `CLAUDE.md` imports the same canonical `AGENTS.md`; it does not define separate permissions. Skills supply procedures within those permissions. The exact inventory lives in the documentation README, and material skill use is recorded with the corresponding activity. The toolkit's builder skills are not inherited automatically.
+If adopted under W22, the project's `CLAUDE.md` imports the same canonical `AGENTS.md`; it does not define separate permissions. Skills supply procedures within those permissions. The exact inventory lives in the agreed documentation location, normally the documentation README, and material skill use is recorded with the corresponding activity. The toolkit's builder skills are not inherited automatically.
 
 ## When the scientific agent must stop
 
