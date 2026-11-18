@@ -59,9 +59,10 @@ A short check is to ask the assistant to identify its scope, one C condition and
 ## 5. Commits, activity-log hashes and publication
 
 - When authorised, create an initial commit limited to policy/docs and relevant ignore rules. Apply the governing provenance convention and use a concise English message describing scope, changes and actual checks. Exclude reproducible PDFs and unrelated work.
-- The first-effect commit hash is known only after that commit exists. Use PENDING beforehand, then inspect the real commit and update the record. Do not try to embed a commit's own hash into itself through amend.
-- If the two-date convention was adopted, derive creation from the source's first introduction into the relevant Git history, tracing renames, and update last-modified to the actual edit date. Do not copy the toolkit's dates as the target project's dates.
-- A second commit completing only these metadata needs authority, which may already be included in the initial request. It does not require an endless sequence of new activity records: complete the relevant row while preserving its first-effect association.
+- If first-effect hashes are adopted under W15, leave newly recorded, uncommitted effects PENDING in commit A. During preparation of the next otherwise-needed authorised AI-prepared commit B, inspect actual history and fill earlier PENDING rows with the verified full hash of each row's original first-effect commit. AI-prepared includes `[AI]` and `[AI-Human]` provenance; it is not inferred from the Git account. Human commits may intervene: do not substitute HEAD or B for A merely because it is the latest commit.
+- Complete earlier rows only when the authorised file/commit scope includes that record update. Effects not yet committed remain PENDING; untraceable historical effects become UNKNOWN with an explanation. If the scope excludes the update or no eligible later AI-prepared commit occurs, leaving PENDING is acceptable. This convention does not grant staging, commit or push authority.
+- Do not request or create a dedicated metadata-only commit, add a log row solely for hash completion, use a self-referential amend, or edit the working tree immediately after a commit merely to capture its new hash. Complete the existing activity row at the eligible later opportunity.
+- If the two-date convention was adopted, derive creation from the source's first introduction into the relevant Git history, tracing renames, and update last-modified to the actual edit date. Complete pending creation metadata at the next planned authorised opportunity within its scope, not through an immediate post-commit edit or special metadata commit. Do not copy the toolkit's dates as the target project's dates.
 - Before push, inspect the remote, branch and **all** outgoing commits. Unrelated earlier commits, divergence or an ambiguous destination require a human decision. Force-push, public visibility, PRs, merges and submission are not implied by a policy-documentation request.
 
 ## 6. After integration
@@ -95,9 +96,11 @@ Use after integration and once the Git operations have been decided. Select the 
 ```text
 GOAL: record the introduction of the AI policy while excluding all changes to pre-existing scientific content.
 
-I authorise [commit / commit and push] for the agreed W22 policy/docs and approved ignore changes. Adopted packet files/locations and designated activity record: [details]. Repository/branch/remote: [verified values]. Authority for a possible second commit limited to activity-record hashes/source dates: [yes/no].
+I authorise [commit / commit and push] for the agreed W22 policy/docs and approved ignore changes. Adopted packet files/locations and designated activity record: [details]. Repository/branch/remote: [verified values].
 
 Recheck actual status and diffs; isolate the authorised changes without altering unrelated work or staging. Exclude reproducible PDFs, preparatory documents, chats, ZIPs and scientific-content changes. If the scope cannot be separated safely, ask about the concrete conflict.
+
+If first-effect hashes are adopted under W15 and the authorised scope includes the record, use preparation of this otherwise-needed AI-prepared commit to complete earlier PENDING rows from actual history. Verify the full hash of the original first effect for each row; do not blindly use HEAD or this new commit, since human commits may intervene. Leave effects not yet committed PENDING, and use UNKNOWN with an explanation for untraceable history. If the record update is outside the authorised scope, leave it PENDING. Complete any adopted creation-date metadata only from verified history and within this planned authorised opportunity.
 
 Use the applicable provenance tag and an English message such as:
 [TAG] docs: introduce the agreed AI-assisted writing workflow
@@ -106,7 +109,7 @@ Use the applicable provenance tag and an English message such as:
 - Preserve all pre-existing scientific content.
 - Validation: [checks actually performed].
 
-Inspect the created commit, obtain the real first-effect hash and complete the designated activity record; if adopted, resolve source dates from the relevant history. Do not rewrite history. Make a second commit limited to these metadata only if authorised above; otherwise report the local metadata update awaiting commitment.
+Inspect the created commit and report its actual hash and outcome. Newly committed effects remain PENDING in that commit; their rows can be completed during the next otherwise-needed authorised AI-prepared commit whose scope includes the record. If no eligible later commit occurs, PENDING remains acceptable. Do not immediately edit the working tree solely to capture the new hash or creation metadata, amend history, create an extra log row solely for this completion, or request or make a dedicated metadata-only commit.
 
 Before an authorised push, check the destination and every outgoing commit. Ask if it would include unrelated work or require resolving divergence; no implicit force-push, merge or PR. Report hashes, destination, actual outcome and remaining local work. Do not repeat generic approval questions for operations already authorised; stop on concrete unresolved issues.
 ```

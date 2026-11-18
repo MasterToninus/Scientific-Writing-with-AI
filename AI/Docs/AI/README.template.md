@@ -42,7 +42,9 @@ P = permitted within its recorded scope with ordinary human review as specified 
 
 The supplied log layout uses one dated English table row per coherent activity. Adopt or adapt it only as agreed. Dates, human identity, tool name and model identity are distinct. Report external uses as attributed statements; do not infer them from Git accounts or model availability.
 
-If using first-effect hashes, use the verified full hash of the first commit carrying the recorded effects. Before it exists use PENDING; untraced history is UNKNOWN with a reason. Its own commit hash cannot be inserted into that same commit without changing it; complete the record later within an authorised operation. A documentation-import hash does not identify untraced earlier manuscript edits.
+If first-effect hashes are selected under W15, new uncommitted effects remain PENDING in their first-effect commit. While preparing the next otherwise-needed, authorised AI-prepared commit, inspect history for each earlier PENDING row and record its original first-effect commit's verified full SHA. A retrospective record of effects already traced to an existing commit may use that verified original SHA within the current authorised scope. Human commits may intervene: do not blindly use current HEAD or the commit receiving the backfill. A documentation-import hash does not identify untraced earlier manuscript edits.
+
+For example, A introduces an activity's effects with its row PENDING; the next eligible AI-prepared commit B fills that earlier row with A's SHA, while B's new activities remain PENDING. Keep PENDING while effects are uncommitted, the authorised scope excludes the log or no later eligible commit occurs; do not seek extra permission solely for backfilling. Use UNKNOWN only for untraceable effects, with a reason. Do not make an immediate post-commit log edit, a dedicated metadata-only commit or an amend solely to fill hashes, or create a new activity row just for routine backfilling. All edits and Git operations remain within the actual authority; the Git account does not establish content provenance.
 
 ## Skills inventory and conditions
 

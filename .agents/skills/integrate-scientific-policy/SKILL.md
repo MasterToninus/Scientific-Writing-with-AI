@@ -18,7 +18,7 @@ Establish the target, reported agreement, repository-access scope and operations
 - Introduce project skills only within the reported policy and requested setup. Use the approved inventory; keep every underlying operation subject to the scientific agent's permissions.
 - Preserve existing scientific content, bibliography, figures, macros and source headers during initial policy-only integration. Source adaptations, including inserting the tentative disclosure, are separate tasks.
 - Verify links, actual instruction loading and any in-scope build checks. A source file or a successful template compilation does not prove integration in the target environment.
-- Handle staging, commits and publication only within the actual request and target policy. Use the applicable provenance tag, preserve unrelated history, and associate log effects with verified hashes as described in the integration guide.
+- Handle staging, commits and publication only within the actual request and target policy. Use the applicable provenance tag and preserve unrelated history. Where W15 uses hashes, leave new effects PENDING; during the next otherwise-needed authorised AI-prepared commit, complete eligible earlier rows with the verified original first-effect SHA as described in the integration guide. Do not create or request a dedicated metadata commit, amend for a self-hash, or make immediate post-commit hash-only edits.
 
 ## Leave an accurate handoff
 

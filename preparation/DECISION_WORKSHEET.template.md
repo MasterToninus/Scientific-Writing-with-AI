@@ -373,7 +373,7 @@ The approaches listed here are options, not defaults. Each row requires a decisi
 | W12 | Log: language for the scientific project (English template), one row per activity or another granularity; separate Human/Tool/Models | ? | [to complete] |
 | W13 | Initial log: one actual creation entry; where to retain prior uses and how to add subsequent activities | ? | [to complete] |
 | W14 | Evidence: observed facts, human reports, necessary excerpts, pending checks and storage location | ? | [to complete] |
-| W15 | First-effect commit: full hash, PENDING/UNKNOWN, subsequent completion without rewriting history | ? | [to complete] |
+| W15 | First-effect commit: verified original full SHA; new effects PENDING; complete earlier records during the next otherwise-needed authorised AI-prepared commit; UNKNOWN for untraceable history; no dedicated metadata commit or history rewriting | ? | [to complete] |
 | W16 | Staging: on request only or a standing instruction for specified files; preserve existing work/index | ? | [to complete] |
 | W17 | Commit, push, PR, merge: authorisations, scope of a single prompt, checks and stopping conditions | ? | [to complete] |
 | W18 | Commit provenance: applicable convention, language, thresholds if adopted, content attribution and limits of Git blame | ? | [to complete] |

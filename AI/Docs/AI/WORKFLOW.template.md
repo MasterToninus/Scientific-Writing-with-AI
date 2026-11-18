@@ -32,6 +32,8 @@ Enter actual facts. Do not turn this proposed sequence into a history of events 
 | LaTeX headers, dates, PDFs and Git | {{SOURCE_AND_GIT_RULES}} |
 | Policy amendments and authority | {{AMENDMENT_AND_AUTHORITY_RULES}} |
 
+If first-effect hashes are adopted under W15, new effects remain PENDING in their introducing commit. The next otherwise-needed authorised AI-prepared commit completes eligible earlier records with their verified original first-effect SHA, within its scope; its own new effects remain PENDING. No dedicated metadata commit, self-hash amend or immediate post-commit hash-only edit is part of this workflow. Follow the canonical AGENTS.md and the [record logic](README.template.md#record-logic); this summary grants no Git authority.
+
 If adopted under W22, the project's `CLAUDE.md` imports the same canonical `AGENTS.md`; it does not define separate permissions. Skills supply procedures within those permissions. The exact inventory lives in the agreed documentation location, normally the documentation README, and material skill use is recorded with the corresponding activity. The toolkit's builder skills are not inherited automatically.
 
 ## When the scientific agent must stop
