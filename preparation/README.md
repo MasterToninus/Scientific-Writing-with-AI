@@ -16,7 +16,7 @@ This is a useful route through the work, not a mandatory approval gate before ev
 | 2. Discussion | Establish goals, work mode, scientific boundaries and materials; consider relevant activities | Individual preferences separated from shared choices |
 | 3. Clarification | Review the answers, identify gaps or contradictions and ask focused questions | Decisions with conditions; remaining `?` entries explicit |
 | 4. Confirmation | Establish who may authorise an activity or change a rule; record the reported agreement and its scope | Adoption status attributed to the responsible human |
-| 5. Drafting and generation | Develop provisional instructions as useful; finalise the project packet from adopted answers | A precise project agent, a Claude entry point and five documents, or a context for chat-only work |
+| 5. Drafting and generation | Develop provisional instructions as useful; finalise the project packet from adopted answers | A precise project agent and documentation in the proposed or adopted W22 layout, with an optional Claude entry point, or a context for chat-only work |
 | 6. Review and integration | Check concrete scenarios; follow INTEGRATION.md once repository access and adoption are agreed | Initial integration limited to policy and documentation |
 | 7. Actual project use | Record activities, retained outputs and checks; ask when an unresolved case becomes relevant | An evidence-based disclosure that can be updated |
 
