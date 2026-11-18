@@ -1,0 +1,12 @@
+# Private, collaboration-specific working copies; templates remain versioned.
+/preparation/sessions/
+/AI/generated/
+
+# Known reproducible output of the included LaTeX template.
+/AI/Docs/AI/TENTATIVE_AI_DISCLOSURE.template.pdf
+/AI/Docs/AI/TENTATIVE_AI_DISCLOSURE.template.aux
+/AI/Docs/AI/TENTATIVE_AI_DISCLOSURE.template.log
+/AI/Docs/AI/TENTATIVE_AI_DISCLOSURE.template.out
+/AI/Docs/AI/TENTATIVE_AI_DISCLOSURE.template.synctex.gz
+/AI/Docs/AI/TENTATIVE_AI_DISCLOSURE.template.fdb_latexmk
+/AI/Docs/AI/TENTATIVE_AI_DISCLOSURE.template.fls
